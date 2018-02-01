@@ -26,15 +26,13 @@ public class PersonaServiceImpl implements IPersonaService {
 	}
 
 	@Override
-	public List<Persona> listAll() {
-		// TODO Auto-generated method stub
-		return null;
+	public List<String> listAll() {
+		return dao.listAll();
 	}
 
 	@Override
 	public Persona find(Integer id) {
-		// TODO Auto-generated method stub
-		return null;
+		return dao.find(id);
 	}
 
 	@Override

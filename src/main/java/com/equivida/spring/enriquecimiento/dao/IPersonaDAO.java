@@ -10,7 +10,7 @@ public interface IPersonaDAO {
 
 	void update(Persona persona);
 
-	List<Persona> listAll();
+	List<String> listAll();
 
 	Persona find(Integer id);
 
